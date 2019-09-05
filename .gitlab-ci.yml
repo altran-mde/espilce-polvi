@@ -12,7 +12,7 @@ Build maven projects:
   tags:
     - linux_docker
   script:
-    - cd releng/org.espilce.commons.parent
+    - cd releng/org.espilce.polvi.parent
     - mvn -e clean install
   artifacts:
     when: always
