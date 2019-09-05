@@ -28,3 +28,7 @@ location "http://download.eclipse.org/releases/oxygen" {
 	org.eclipse.equinox.executable.feature.group
 	org.eclipse.sdk.feature.group
 }
+
+location "https://download.eclipse.org/cbi/updates/license/" {
+	org.eclipse.license.feature.group [2.0.2,2.0.3)
+}
