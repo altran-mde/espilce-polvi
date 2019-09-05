@@ -1,0 +1,27 @@
+image: registry.manatree.io/rvanduijnhoven/maven-python-dockerimage
+
+before_script:
+  - mkdir -p /root/.m2 && cp settings.xml "$_"
+
+stages:
+  - build
+  - publish
+
+Build maven projects:
+  stage: build
+  tags:
+    - linux_docker
+  script:
+    - cd releng/org.espilce.commons.parent
+    - mvn -e clean install
+  artifacts:
+    when: always
+    paths:
+      - "component/*/*/target/*.jar"
+publish:
+  stage: publish
+  tags:
+    - linux_docker
+  script:
+    - ./scripts/publish.py
+  allow_failure: true

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.espilce.commons.emf.feature_0.1.0.qualifier.jar" id="org.espilce.commons.emf.feature" version="0.1.0.qualifier">
+      <category name="EspilceCommonsP2"/>
+   </feature>
+   <feature url="features/org.espilce.commons.emf.resource.feature_0.1.0.qualifier.jar" id="org.espilce.commons.emf.resource.feature" version="0.1.0.qualifier">
+      <category name="EspilceCommonsP2"/>
+   </feature>
+   <feature url="features/org.espilce.commons.emf.testsupport.resource.feature_0.1.0.qualifier.jar" id="org.espilce.commons.emf.testsupport.resource.feature" version="0.1.0.qualifier">
+      <category name="EspilceCommonsP2"/>
+   </feature>
+   <feature url="features/org.espilce.commons.emf.textrenderer.feature_0.1.0.qualifier.jar" id="org.espilce.commons.emf.textrenderer.feature" version="0.1.0.qualifier">
+      <category name="EspilceCommonsP2"/>
+   </feature>
+   <feature url="features/org.espilce.commons.exception.feature_0.1.0.qualifier.jar" id="org.espilce.commons.exception.feature" version="0.1.0.qualifier">
+      <category name="EspilceCommonsP2"/>
+   </feature>
+   <feature url="features/org.espilce.commons.resource.feature_0.1.0.qualifier.jar" id="org.espilce.commons.resource.feature" version="0.1.0.qualifier">
+      <category name="EspilceCommonsP2"/>
+   </feature>
+   <feature url="features/org.espilce.commons.emf.generator.xtext.feature_0.1.0.qualifier.jar" id="org.espilce.commons.emf.generator.xtext.feature" version="0.1.0.qualifier">
+      <category name="EspilceCommonsP2"/>
+   </feature>
+   <feature url="features/org.espilce.commons.generator.feature_0.1.0.qualifier.jar" id="org.espilce.commons.generator.feature" version="0.1.0.qualifier">
+      <category name="EspilceCommonsP2"/>
+   </feature>
+   <feature url="features/org.espilce.commons.testsupport.feature_0.1.0.qualifier.jar" id="org.espilce.commons.testsupport.feature" version="0.1.0.qualifier">
+      <category name="EspilceCommonsP2"/>
+   </feature>
+   <feature url="features/org.espilce.commons.emf.testsupport.feature_0.2.0.qualifier.jar" id="org.espilce.commons.emf.testsupport.feature" version="0.2.0.qualifier">
+      <category name="EspilceCommonsP2"/>
+   </feature>
+   <feature url="features/org.espilce.commons.lang.feature_0.2.0.qualifier.jar" id="org.espilce.commons.lang.feature" version="0.2.0.qualifier">
+      <category name="EspilceCommonsP2"/>
+   </feature>
+   <feature url="features/org.espilce.commons.testsupport.resource.feature_0.1.0.qualifier.jar" id="org.espilce.commons.testsupport.resource.feature" version="0.1.0.qualifier">
+      <category name="EspilceCommonsP2"/>
+   </feature>
+   <feature url="features/org.espilce.commons.emf.generator.feature_0.2.0.qualifier.jar" id="org.espilce.commons.emf.generator.feature" version="0.2.0.qualifier">
+      <category name="EspilceCommonsP2"/>
+   </feature>
+   <category-def name="EspilceCommonsP2" label="Espilce Commons">
+      <description>
+         Espilce Commons Features and Plug-ins
+      </description>
+   </category-def>
+   <repository-reference location="http://download.eclipse.org/tools/orbit/downloads/drops/R20180330011457/repository" enabled="true" />
+   <repository-reference location="http://download.eclipse.org/releases/oxygen" enabled="true" />
+</site>

@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Espilce Commons Generator
+Bundle-SymbolicName: org.espilce.commons.generator
+Bundle-Version: 0.2.0.qualifier
+Bundle-Vendor: Espilce Commons
+Automatic-Module-Name: org.espilce.commons.generator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.espilce.commons.generator.api;bundle-version=0.1.0;visibility:=reexport,
+ org.eclipse.jdt.annotation;bundle-version=2.1;resolution:=optional;visibility:=reexport
+Import-Package: org.eclipse.jdt.annotation;resolution:=optional,
+ org.espilce.commons.generator.api.context;version="0.1.0",
+ org.espilce.commons.generator.api.fsa;version="0.1.0",
+ org.espilce.commons.generator.api.outputconfig;version="0.1.0"
+Export-Package: org.espilce.commons.generator;version="0.2.0",
+ org.espilce.commons.generator.outputconfig;version="0.1.0"

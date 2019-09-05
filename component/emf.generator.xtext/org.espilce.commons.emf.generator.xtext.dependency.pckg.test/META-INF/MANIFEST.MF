@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Espilce Commons EMF Generator Xtext Package Dependency Test
+Bundle-SymbolicName: org.espilce.commons.emf.generator.xtext.dependency.pckg.test
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: Espilce Commons
+Automatic-Module-Name: org.espilce.commons.emf.generator.xtext.dependency.pckg.test
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.espilce.commons.emf.generator.xtext,
+ org.espilce.commons.emf.generator.xtext.ext,
+ org.espilce.commons.emf.generator.api,
+ org.eclipse.xtext.util,
+ org.eclipse.xtext.generator,
+ org.junit;version=4
