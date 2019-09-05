@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.espilce.polvi.emf.generator.xtext.feature_0.1.0.qualifier.jar" id="org.espilce.polvi.emf.generator.xtext.feature" version="0.1.0.qualifier">
+      <category name="EspilcePolviP2"/>
+   </feature>
+   <feature url="features/org.espilce.polvi.generator.feature_0.1.0.qualifier.jar" id="org.espilce.polvi.generator.feature" version="0.1.0.qualifier">
+      <category name="EspilcePolviP2"/>
+   </feature>
+   <feature url="features/org.espilce.polvi.emf.generator.feature_0.2.0.qualifier.jar" id="org.espilce.polvi.emf.generator.feature" version="0.2.0.qualifier">
+      <category name="EspilcePolviP2"/>
+   </feature>
+   <category-def name="EspilcePolviP2" label="Espilce Polvi">
+      <description>
+         Espilce Polvi Features and Plug-ins
+      </description>
+   </category-def>
+   <repository-reference location="http://download.eclipse.org/tools/orbit/downloads/drops/R20180330011457/repository" enabled="true" />
+   <repository-reference location="http://download.eclipse.org/releases/oxygen" enabled="true" />
+</site>

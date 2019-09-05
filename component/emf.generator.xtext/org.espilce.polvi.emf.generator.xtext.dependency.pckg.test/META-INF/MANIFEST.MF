@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Espilce Polvi EMF Generator Xtext Package Dependency Test
+Bundle-SymbolicName: org.espilce.polvi.emf.generator.xtext.dependency.pckg.test
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: Espilce Polvi
+Automatic-Module-Name: org.espilce.polvi.emf.generator.xtext.dependency.pckg.test
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.eclipse.xtext.generator,
+ org.eclipse.xtext.util,
+ org.espilce.polvi.emf.generator.api,
+ org.espilce.polvi.emf.generator.xtext,
+ org.espilce.polvi.emf.generator.xtext.ext,
+ org.junit;version=4
