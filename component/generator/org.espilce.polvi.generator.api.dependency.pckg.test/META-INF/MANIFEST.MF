@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Espilce Polvi Generator API Package Dependency Test
+Bundle-SymbolicName: org.espilce.polvi.generator.api.dependency.pckg.test
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: Espilce Polvi
+Automatic-Module-Name: org.espilce.polvi.generator.api.dependency.pckg.test
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.espilce.polvi.generator.api,
+ org.espilce.polvi.generator.api.context,
+ org.espilce.polvi.generator.api.fsa,
+ org.espilce.polvi.generator.api.outputconfig,
+ org.junit;version=4

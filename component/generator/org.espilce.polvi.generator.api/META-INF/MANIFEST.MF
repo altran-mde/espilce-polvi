@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Espilce Polvi Generator API
+Bundle-SymbolicName: org.espilce.polvi.generator.api
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: Espilce Polvi
+Automatic-Module-Name: org.espilce.polvi.generator.api
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.jdt.annotation;bundle-version=2.1;resolution:=optional;visibility:=reexport
+Import-Package: org.eclipse.jdt.annotation;resolution:=optional
+Export-Package: org.espilce.polvi.generator.api;version="0.1.0",
+ org.espilce.polvi.generator.api.context;version="0.1.0",
+ org.espilce.polvi.generator.api.fsa;version="0.1.0",
+ org.espilce.polvi.generator.api.outputconfig;version="0.1.0"

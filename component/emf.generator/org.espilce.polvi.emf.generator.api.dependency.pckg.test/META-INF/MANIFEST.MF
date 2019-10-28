@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Espilce Polvi EMF Generator API Package Dependency Test
+Bundle-SymbolicName: org.espilce.polvi.emf.generator.api.dependency.pckg.test
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: Espilce Polvi
+Automatic-Module-Name: org.espilce.polvi.emf.generator.api.dependency.pckg.test
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.eclipse.emf.common.util,
+ org.eclipse.emf.ecore.resource,
+ org.espilce.polvi.emf.generator.api,
+ org.espilce.polvi.emf.generator.api.fsa,
+ org.espilce.polvi.generator.api.context,
+ org.espilce.polvi.generator.api.fsa,
+ org.junit;version=4
