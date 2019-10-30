@@ -12,8 +12,10 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.build.timestamp.format>yyyyMMdd-HHmm</maven.build.timestamp.format>
 
 		<polvi-target-version>0.1.0-SNAPSHOT</polvi-target-version>
+		<jgit-version>5.5.1.201910021850-r</jgit-version>
 
 		<!-- Tycho settings -->
 		<tycho-version>1.2.0</tycho-version>
@@ -92,6 +94,30 @@
 					<argLine>${tycho.testArgLine} ${platformSystemProperties} ${systemProperties} ${moduleProperties}</argLine>
 					<failIfNoTests>false</failIfNoTests>
 					<useUIHarness>false</useUIHarness>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-packaging-plugin</artifactId>
+				<dependencies>
+					<dependency>
+						<groupId>org.eclipse.tycho.extras</groupId>
+						<artifactId>tycho-buildtimestamp-jgit</artifactId>
+						<version>${tycho-version}</version>
+					</dependency>
+					<dependency>
+						<groupId>org.eclipse.jgit</groupId>
+						<artifactId>org.eclipse.jgit</artifactId>
+						<version>${jgit-version}</version>
+					</dependency>
+				</dependencies>
+				<configuration>
+					<format>yyyyMMdd-HHmm</format>
+					<timestampProvider>jgit</timestampProvider>
+					<jgit.dirtyWorkingTree>warning</jgit.dirtyWorkingTree>
+					<archive>
+						<addMavenDescriptor>false</addMavenDescriptor>
+					</archive>
 				</configuration>
 			</plugin>
 		</plugins>
