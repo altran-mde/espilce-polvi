@@ -16,11 +16,19 @@
       <username>${env.ArtifactStoreUserName}</username>
       <password>${env.ArtifactStorePassword}</password>
     </server>
+    <server>
+      <id>nexus-p2-group</id>
+      <configuration>
+        <timeout>10000</timeout>
+      </configuration>
+      <username>${env.ArtifactStoreUserName}</username>
+      <password>${env.ArtifactStorePassword}</password>
+    </server>
    </servers>
   <mirrors>
     <mirror>
-      <id>nexus-p2</id>
-      <name>nexus-p2</name>
+      <id>nexus-p2-group</id>
+      <name>nexus-p2-group</name>
       <url>https://nexus-p2.manatree.io/nexus/content/groups/nexus-p2-group/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>

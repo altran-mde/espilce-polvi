@@ -1,27 +1,18 @@
 image: registry.manatree.io/rvanduijnhoven/maven-python-dockerimage
 
 before_script:
-  - mkdir -p /root/.m2 && cp settings.xml "$_"
+  - chmod -R +x ./releng/scripts
 
 stages:
   - build
-  - publish
 
 Build maven projects:
   stage: build
   tags:
     - linux_docker
   script:
-    - cd releng/org.espilce.polvi.parent
-    - mvn -e clean install
+    - ./releng/scripts/build.sh $CI_COMMIT_REF_NAME $CI_COMMIT_TAG
   artifacts:
     when: always
     paths:
       - "component/*/*/target/*.jar"
-publish:
-  stage: publish
-  tags:
-    - linux_docker
-  script:
-    - ./scripts/publish.py
-  allow_failure: true

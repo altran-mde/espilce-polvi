@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="Espilce Polvi" sequenceNumber="1567692734">
+<target name="Espilce Polvi" sequenceNumber="1572440949">
   <locations>
     <location includeMode="slicer" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.apache.commons.io" version="2.2.0.v201405211200"/>
@@ -14,7 +14,7 @@
       <unit id="com.google.inject.source" version="3.0.0.v201605172100"/>
       <unit id="org.hamcrest.library" version="1.3.0.v201505072020"/>
       <unit id="org.hamcrest.library.source" version="1.3.0.v201505072020"/>
-      <repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20180330011457/repository"/>
+      <repository location="http://ftp.snt.utwente.nl/pub/software/eclipse/tools/orbit/downloads/drops/R20180330011457/repository"/>
     </location>
     <location includeMode="slicer" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.eclipse.emf.sdk.feature.group" version="2.13.0.v20170609-0928"/>
@@ -24,11 +24,17 @@
       <unit id="org.eclipse.emf.mwe2.language.sdk.feature.group" version="2.9.1.201705291011"/>
       <unit id="org.eclipse.equinox.executable.feature.group" version="3.7.2.v20171108-1834"/>
       <unit id="org.eclipse.sdk.feature.group" version="4.7.3.v20180330-0919"/>
-      <repository location="http://download.eclipse.org/releases/oxygen"/>
+      <repository location="http://ftp.snt.utwente.nl/pub/software/eclipse/releases/oxygen"/>
     </location>
     <location includeMode="slicer" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.eclipse.license.feature.group" version="2.0.2.v20181016-2210"/>
-      <repository location="https://download.eclipse.org/cbi/updates/license/"/>
+      <repository location="http://ftp.snt.utwente.nl/pub/software/eclipse/cbi/updates/license/"/>
+    </location>
+    <location includeMode="slicer" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
+      <unit id="org.espilce.commons.emf.feature.feature.group" version="0.1.0.20191023-1345"/>
+      <unit id="org.espilce.commons.resource.feature.feature.group" version="0.1.0.20191023-1345"/>
+      <unit id="org.espilce.commons.lang.feature.feature.group" version="0.3.0.20191028-1455"/>
+      <repository id="nexus-p2" location="https://nexus-p2.manatree.io/nexus/content/sites/MDEAssets/espilce-commons/develop"/>
     </location>
   </locations>
 </target>
