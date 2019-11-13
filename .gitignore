@@ -32,3 +32,6 @@ bin-test/
 # Maven build directories
 build/
 target/
+
+# Maven generated poms
+**/.polyglot.build.properties
