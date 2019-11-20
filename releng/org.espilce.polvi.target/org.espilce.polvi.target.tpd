@@ -33,7 +33,7 @@ location "http://ftp.snt.utwente.nl/pub/software/eclipse/cbi/updates/license/" {
 	org.eclipse.license.feature.group [2.0.2,2.0.3)
 }
 
-location "https://nexus-p2.manatree.io/nexus/content/sites/MDEAssets/espilce-commons/develop" nexus-p2 {
+location "https://nexus-p2.manatree.io/nexus/content/sites/MDEAssets/espilce-commons/1.0" nexus-p2 {
     org.espilce.commons.emf.feature.feature.group
     org.espilce.commons.resource.feature.feature.group   
     org.espilce.commons.lang.feature.feature.group
