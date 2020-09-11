@@ -1,0 +1,23 @@
+# Copyright Altran Netherlands B.V
+
+project: espilce-polvi
+language: MDE
+code_location:
+  source:
+    - .
+artifact_repository_url: "https://nexus.acidspace.nl/repository/{}/"
+
+release:
+  binaries:
+    precondition:
+      - VersionDetermined
+      - OutputDirectoryExists
+      - OutputDirectoryIsEmpty
+    parameters:
+      artifact_repository: "espilce-polvi"
+      artifact_regex: "{}\/.*"
+      artifact_source_url: "https://nexus.acidspace.nl/service/rest/v1/assets?repository=espilce-polvi"
+      artifact_target_dir: ./releng/org.espilce.polvi.repository/downloaded-repository/
+      parent_pom: releng/org.espilce.polvi.parent/pom.xml
+      publish_pom: releng/org.espilce.polvi.repository/pom.xml
+      output: ./release/binaries/
