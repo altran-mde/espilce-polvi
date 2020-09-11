@@ -13,23 +13,31 @@
       <configuration>
         <timeout>10000</timeout>
       </configuration>
-      <username>${env.ArtifactStoreUserName}</username>
-      <password>${env.ArtifactStorePassword}</password>
+      <username>${env.TECHNICAL_USER}</username>
+      <password>${env.TECHNICAL_PASSWORD}</password>
     </server>
     <server>
       <id>nexus-p2-group</id>
       <configuration>
         <timeout>10000</timeout>
       </configuration>
-      <username>${env.ArtifactStoreUserName}</username>
-      <password>${env.ArtifactStorePassword}</password>
+      <username>${env.TECHNICAL_USER}</username>
+      <password>${env.TECHNICAL_PASSWORD}</password>
+    </server>
+	<server>
+	<id>artifact-p2</id>
+      <configuration>
+        <timeout>10000</timeout>
+      </configuration>
+      <username>${env.TECHNICAL_USER}</username>
+      <password>${env.TECHNICAL_PASSWORD}</password>
     </server>
    </servers>
   <mirrors>
     <mirror>
       <id>nexus-p2-group</id>
       <name>nexus-p2-group</name>
-      <url>https://nexus-p2.manatree.io/nexus/content/groups/nexus-p2-group/</url>
+      <url>https://nexus.acidspace.nl/repository/nexus-p2-group.nexus-p2.manatree.io/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
