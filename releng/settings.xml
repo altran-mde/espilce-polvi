@@ -37,7 +37,7 @@
     <mirror>
       <id>nexus-p2-group</id>
       <name>nexus-p2-group</name>
-      <url>https://nexus.acidspace.nl/repository/nexus-p2-group.nexus-p2.manatree.io/</url>
+      <url>https://nexus.acidspace.nl/repository/acidspace-central/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
