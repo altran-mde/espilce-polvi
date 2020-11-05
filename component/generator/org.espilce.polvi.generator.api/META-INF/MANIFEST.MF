@@ -6,7 +6,8 @@ Bundle-Version: 0.1.0.qualifier
 Bundle-Vendor: Espilce Polvi
 Automatic-Module-Name: org.espilce.polvi.generator.api
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Require-Bundle: org.eclipse.jdt.annotation;bundle-version=2.1;resolution:=optional;visibility:=reexport
+Require-Bundle: org.eclipse.jdt.annotation;bundle-version="2.1";resolution:=optional;visibility:=reexport,
+ javax.annotation;bundle-version="1.2.0";resolution:=optional;visibility:=reexport
 Import-Package: org.eclipse.jdt.annotation;resolution:=optional
 Export-Package: org.espilce.polvi.generator.api;version="0.1.0",
  org.espilce.polvi.generator.api.context;version="0.1.0",

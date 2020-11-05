@@ -12,7 +12,4 @@
 		<version>0.1.0-SNAPSHOT</version>
 		<relativePath>../../releng/org.espilce.polvi.parent</relativePath>
 	</parent>
-
-	<dependencies>
-	</dependencies>
 </project>
