@@ -10,12 +10,21 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1603986856744</id>
+			<id>1625733217220</id>
 			<name></name>
 			<type>9</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-acidcli</arguments>
+				<arguments>1.0-name-matches-false-false-releng</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625733237084</id>
+			<name>releng</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-eclipse</arguments>
 			</matcher>
 		</filter>
 	</filteredResources>
