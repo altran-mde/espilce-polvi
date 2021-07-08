@@ -8,7 +8,7 @@
 :project-name: Espilce Polvi
 :eclipse-version: 2020-03
 :gitlab-acidspace-nl-project: ec-mde/espilce-polvi
-:oomph-setup-file-path: EspilcePolviACIDSpace.setup
+:oomph-setup-file-path: releng/eclipse/EspilcePolviACIDSpace.setup
 :oomph-setup-stream: develop
 
 = pass:normal[{project-name}]
