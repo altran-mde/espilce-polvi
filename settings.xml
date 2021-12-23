@@ -2,17 +2,39 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0
                       http://maven.apache.org/xsd/settings-1.1.0.xsd">
-  <servers>
-    <!-- Deployment credentials -->
-    <server>
-      <id>acidspace-repository-manager</id>
-      <configuration>
-        <timeout>10000</timeout>
-      </configuration>
-      <username>${env.TECHNICAL_USER}</username>
-      <password>${env.TECHNICAL_PASSWORD}</password>
-    </server>
+  <mirrors>
+    <!-- Maven mirrors -->
+    <mirror>
+      <id>mde-assets-maven-central</id>
+      <name>ACIDSpace Maven Central</name>
+      <url>https://nexus.acidspace.nl/repository/mde-assets/</url>
+      <mirrorOf>central</mirrorOf>
+    </mirror>
 
+    <!-- P2 target platform mirrors -->
+    <mirror>
+      <url>https://nexus.acidspace.nl/repository/eclipse.org-releases-oxygen/</url>
+      <mirrorOf>http://download.eclipse.org/releases/oxygen</mirrorOf> 
+      <mirrorOfLayouts>p2</mirrorOfLayouts>
+      <layout>p2</layout>
+    </mirror>
+
+    <mirror>
+      <url>https://nexus.acidspace.nl/repository/eclipse.org-tools-orbit-downloads-drops-R20180330011457-repository/</url>
+      <mirrorOf>http://download.eclipse.org/tools/orbit/downloads/drops/R20180330011457/repository</mirrorOf> 
+      <mirrorOfLayouts>p2</mirrorOfLayouts>
+      <layout>p2</layout>
+    </mirror>
+
+    <mirror>
+      <url>https://nexus.acidspace.nl/repository/eclipse.org-cbi-updates-license/</url>
+      <mirrorOf>http://download.eclipse.org/cbi/updates/license/</mirrorOf> 
+      <mirrorOfLayouts>p2</mirrorOfLayouts>
+      <layout>p2</layout>
+    </mirror>
+  </mirrors>
+
+  <servers>
     <!-- Maven mirrors -->
     <server>
       <id>mde-assets-maven-central</id>
@@ -33,16 +55,6 @@
       <password>${env.TECHNICAL_PASSWORD}</password>
     </server>
   </servers>
-
-  <mirrors>
-    <!-- Maven mirrors -->
-    <mirror>
-      <id>mde-assets-maven-central</id>
-      <name>ACIDSpace Maven Central</name>
-      <url>https://nexus.acidspace.nl/repository/mde-assets/</url>
-      <mirrorOf>central</mirrorOf>
-    </mirror>
-  </mirrors>
 
   <profiles>
     <profile>
