@@ -70,7 +70,7 @@ public abstract class AbstractFileSystemAccess implements IFileSystemAccess, IFi
 				to = from.getOutputDirectory(AbstractFileSystemAccess.this.currentSource);
 			}
 			return new SimpleImmutableEntry<>(e.getKey(), to);
-		}).collect(Collectors.toMap(Entry::getKey, Entry::getKey));
+		}).collect(Collectors.toMap(Entry::getKey, Entry::getValue));
 	}
 
 	public void setOutputPath(final String outputName, final String path) {
