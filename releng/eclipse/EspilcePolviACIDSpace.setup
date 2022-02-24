@@ -463,7 +463,7 @@
         <requirement
             name="org.sonatype.m2e.buildhelper.feature.feature.group"/>
         <repository
-            url="https://nexus.acidspace.nl/repository/eclipse.org-technology-m2e-releases-latest/"/>
+            url="https://nexus.acidspace.nl/repository/eclipse.org-technology-m2e-releases-1.19.0/"/>
         <repository
             url="https://nexus.acidspace.nl/repository/maven.org-maven2-.m2e-connectors-m2eclipse-tycho-0.9.0-N-LATEST/"/>
         <repository
