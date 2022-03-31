@@ -19,6 +19,7 @@
 		<module>../org.espilce.polvi.emf.generator.xtext.feature</module>
 		<module>../org.espilce.polvi.emf.generator.xtext.dependency.bundle.test</module>
 		<module>../org.espilce.polvi.emf.generator.xtext.dependency.pckg.test</module>
+		<module>../org.espilce.polvi.xtext.generator</module>
 	</modules>
 
 	<build>
