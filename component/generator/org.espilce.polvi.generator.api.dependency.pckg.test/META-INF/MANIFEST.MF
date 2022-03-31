@@ -7,7 +7,6 @@ Bundle-Vendor: Espilce Polvi
 Automatic-Module-Name: org.espilce.polvi.generator.api.dependency.pckg.test
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: javax.annotation,
- org.espilce.polvi.generator.api,
  org.espilce.polvi.generator.api.context,
  org.espilce.polvi.generator.api.fsa,
  org.espilce.polvi.generator.api.outputconfig,
