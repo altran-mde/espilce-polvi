@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="Espilce Polvi" sequenceNumber="1640246149">
+<target name="Espilce Polvi" sequenceNumber="1648718555">
   <locations>
-    <location includeMode="slicer" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
-      <unit id="org.eclipse.emf.sdk.feature.group" version="2.13.0.v20170609-0928"/>
-      <unit id="org.eclipse.xtext.sdk.feature.group" version="2.12.0.v20170519-1412"/>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
+      <unit id="org.eclipse.emf.sdk.feature.group" version="2.22.0.v20200519-1135"/>
+      <unit id="org.eclipse.xtext.sdk.feature.group" version="2.22.0.v20200602-1533"/>
       <unit id="org.eclipse.xtend.feature.group" version="2.2.0.v201605260315"/>
-      <unit id="org.eclipse.emf.mwe.sdk.feature.group" version="1.3.21.201705291011"/>
-      <unit id="org.eclipse.emf.mwe2.language.sdk.feature.group" version="2.9.1.201705291011"/>
-      <unit id="org.eclipse.equinox.executable.feature.group" version="3.7.2.v20171108-1834"/>
-      <unit id="org.eclipse.sdk.feature.group" version="4.7.3.v20180330-0919"/>
-      <repository location="http://download.eclipse.org/releases/oxygen"/>
+      <unit id="org.eclipse.emf.mwe.sdk.feature.group" version="1.5.3.v20200520-0756"/>
+      <unit id="org.eclipse.emf.mwe2.language.sdk.feature.group" version="2.11.3.v20200520-0756"/>
+      <unit id="org.eclipse.equinox.executable.feature.group" version="3.8.800.v20200514-1529"/>
+      <unit id="org.eclipse.sdk.feature.group" version="4.16.0.v20200604-0951"/>
+      <repository location="https://download.eclipse.org/releases/2020-06/202006171000/"/>
     </location>
-    <location includeMode="slicer" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.apache.commons.io" version="2.2.0.v201405211200"/>
       <unit id="org.apache.commons.io.source" version="2.2.0.v201405211200"/>
       <unit id="org.apache.commons.lang3" version="3.1.0.v201403281430"/>
       <unit id="org.apache.commons.lang3.source" version="3.1.0.v201403281430"/>
-      <unit id="com.google.guava" version="15.0.0.v201403281430"/>
-      <unit id="com.google.guava.source" version="15.0.0.v201403281430"/>
+      <unit id="com.google.guava" version="27.1.0.v20190517-1946"/>
+      <unit id="com.google.guava.source" version="27.1.0.v20190517-1946"/>
       <unit id="com.google.inject" version="3.0.0.v201605172100"/>
       <unit id="com.google.inject.source" version="3.0.0.v201605172100"/>
-      <unit id="org.hamcrest.library" version="1.3.0.v201505072020"/>
-      <unit id="org.hamcrest.library.source" version="1.3.0.v201505072020"/>
-      <repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20180330011457/repository"/>
+      <unit id="org.hamcrest.library" version="1.3.0.v20180524-2246"/>
+      <unit id="org.hamcrest.library.source" version="1.3.0.v20180524-2246"/>
+      <repository location="https://download.eclipse.org/tools/orbit/downloads/drops/R20200529191137/repository/"/>
     </location>
-    <location includeMode="slicer" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.eclipse.license.feature.group" version="2.0.2.v20181016-2210"/>
       <repository location="http://download.eclipse.org/cbi/updates/license/"/>
     </location>
-    <location includeMode="slicer" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.espilce.commons.emf.feature.feature.group" version="0.1.0.20191023-1345"/>
       <unit id="org.espilce.commons.resource.feature.feature.group" version="0.1.0.20191023-1345"/>
       <unit id="org.espilce.commons.lang.feature.feature.group" version="0.3.0.20191028-1455"/>

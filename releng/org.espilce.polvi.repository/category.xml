@@ -14,6 +14,6 @@
          Espilce Polvi Features and Plug-ins
       </description>
    </category-def>
-   <repository-reference location="http://download.eclipse.org/tools/orbit/downloads/drops/R20180330011457/repository" enabled="true" />
-   <repository-reference location="http://download.eclipse.org/releases/oxygen" enabled="true" />
+   <repository-reference location="http://download.eclipse.org/releases/2020-06/202006171000/" enabled="true" />
+   <repository-reference location="http://download.eclipse.org/tools/orbit/downloads/drops/R20200529191137/repository/" enabled="true" />
 </site>
