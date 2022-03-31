@@ -6,7 +6,7 @@
 :linkattrs: true
 
 :project-name: Espilce Polvi
-:eclipse-version: 2020-03
+:eclipse-version: 2020-06
 :gitlab-acidspace-nl-project: ec-mde/espilce-polvi
 :oomph-setup-file-path: releng/eclipse/EspilcePolviACIDSpace.setup
 :oomph-setup-stream: develop

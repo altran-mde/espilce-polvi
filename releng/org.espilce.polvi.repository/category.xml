@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.espilce.polvi.emf.generator.xtext.feature_0.1.0.qualifier.jar" id="org.espilce.polvi.emf.generator.xtext.feature" version="0.1.0.qualifier">
+   <feature id="org.espilce.polvi.emf.generator.xtext.feature">
       <category name="EspilcePolviP2"/>
    </feature>
-   <feature url="features/org.espilce.polvi.generator.feature_0.1.0.qualifier.jar" id="org.espilce.polvi.generator.feature" version="0.1.0.qualifier">
+   <feature id="org.espilce.polvi.generator.feature">
       <category name="EspilcePolviP2"/>
    </feature>
-   <feature url="features/org.espilce.polvi.emf.generator.feature_0.2.0.qualifier.jar" id="org.espilce.polvi.emf.generator.feature" version="0.2.0.qualifier">
+   <feature id="org.espilce.polvi.emf.generator.feature">
       <category name="EspilcePolviP2"/>
    </feature>
+   <bundle id="org.espilce.polvi.xtext.generator">
+      <category name="EspilcePolviP2"/>
+   </bundle>
    <category-def name="EspilcePolviP2" label="Espilce Polvi">
       <description>
          Espilce Polvi Features and Plug-ins
       </description>
    </category-def>
-   <repository-reference location="http://download.eclipse.org/tools/orbit/downloads/drops/R20180330011457/repository" enabled="true" />
-   <repository-reference location="http://download.eclipse.org/releases/oxygen" enabled="true" />
+   <repository-reference location="http://download.eclipse.org/releases/2020-06/202006171000/" enabled="true" />
+   <repository-reference location="http://download.eclipse.org/tools/orbit/downloads/drops/R20200529191137/repository/" enabled="true" />
 </site>
