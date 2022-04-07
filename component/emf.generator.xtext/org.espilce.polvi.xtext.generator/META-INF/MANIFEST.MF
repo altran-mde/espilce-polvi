@@ -10,4 +10,4 @@ Export-Package: org.espilce.polvi.xtext.generator
 Require-Bundle: org.eclipse.xtext,
  org.eclipse.xtext.xtext.generator,
  org.eclipse.xtend.lib,
- org.espilce.polvi.emf.generator.xtext
+ org.espilce.polvi.emf.generator.xtext;visibility:=reexport
