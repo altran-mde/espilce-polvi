@@ -17,7 +17,7 @@ Import-Package: org.apache.commons.io,
  org.espilce.commons.resource,
  org.espilce.polvi.emf.generator.api.fsa,
  org.espilce.polvi.emf.generator.fsa,
- org.espilce.polvi.generator,
  org.espilce.polvi.generator.api.fsa,
+ org.espilce.polvi.generator.fsa,
  org.espilce.polvi.generator.outputconfig,
  org.junit;version=4

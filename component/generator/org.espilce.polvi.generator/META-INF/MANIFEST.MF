@@ -12,5 +12,7 @@ Import-Package: org.eclipse.jdt.annotation;resolution:=optional,
  org.espilce.polvi.generator.api.context;version="0.3.0",
  org.espilce.polvi.generator.api.fsa;version="0.3.0",
  org.espilce.polvi.generator.api.outputconfig;version="0.3.0"
-Export-Package: org.espilce.polvi.generator;version="0.2.0",
- org.espilce.polvi.generator.outputconfig;version="0.3.0"
+Export-Package: org.espilce.polvi.generator;version="0.3.0";uses:="org.espilce.polvi.generator.fsa",
+ org.espilce.polvi.generator.context;version="0.3.0";uses:="org.espilce.polvi.generator.api.context",
+ org.espilce.polvi.generator.fsa;version="0.3.0";uses:="org.espilce.polvi.generator.outputconfig,org.espilce.polvi.generator.api.fsa",
+ org.espilce.polvi.generator.outputconfig;version="0.3.0";uses:="org.espilce.polvi.generator.api.outputconfig"
