@@ -80,7 +80,5 @@
 
   <activeProfiles>
     <activeProfile>mde-assets-maven-central-snapshots</activeProfile>
-    <!-- Apply the Altran theme on generated documentation -->
-    <activeProfile>asciidoc-altran-theme</activeProfile>
   </activeProfiles>
 </settings>

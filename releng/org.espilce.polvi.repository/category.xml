@@ -3,13 +3,25 @@
    <feature id="org.espilce.polvi.emf.generator.xtext.feature">
       <category name="EspilcePolviP2"/>
    </feature>
+   <feature id="org.espilce.polvi.emf.generator.xtext.feature.source">
+      <category name="EspilcePolviP2"/>
+   </feature>
    <feature id="org.espilce.polvi.generator.feature">
+      <category name="EspilcePolviP2"/>
+   </feature>
+   <feature id="org.espilce.polvi.generator.feature.source">
       <category name="EspilcePolviP2"/>
    </feature>
    <feature id="org.espilce.polvi.emf.generator.feature">
       <category name="EspilcePolviP2"/>
    </feature>
+   <feature id="org.espilce.polvi.emf.generator.feature.source">
+      <category name="EspilcePolviP2"/>
+   </feature>
    <bundle id="org.espilce.polvi.xtext.generator">
+      <category name="EspilcePolviP2"/>
+   </bundle>
+   <bundle id="org.espilce.polvi.xtext.generator.source">
       <category name="EspilcePolviP2"/>
    </bundle>
    <category-def name="EspilcePolviP2" label="Espilce Polvi">

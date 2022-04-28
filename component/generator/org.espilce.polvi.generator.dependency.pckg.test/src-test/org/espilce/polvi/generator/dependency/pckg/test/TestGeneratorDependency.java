@@ -5,7 +5,7 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import org.espilce.polvi.generator.AbstractFileSystemAccess;
+import org.espilce.polvi.generator.fsa.AbstractFileSystemAccess;
 import org.espilce.polvi.generator.outputconfig.OutputConfiguration;
 import org.espilce.polvi.generator.outputconfig.SourceMapping;
 import org.junit.Test;
