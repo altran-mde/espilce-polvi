@@ -28,7 +28,7 @@
     <surefire-junit47.version>3.0.0-M2</surefire-junit47.version>
     <maven-compiler-plugin.version>2.5.1</maven-compiler-plugin.version>
     <build-helper-maven-plugin.version>1.9.1</build-helper-maven-plugin.version>
-    <junit.version>4.12</junit.version>
+    <junit.version>4.13.1</junit.version>
 
   </properties>
 
@@ -97,6 +97,7 @@
       <plugin>
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>tycho-packaging-plugin</artifactId>
+        <version>${tycho-version}</version>
         <dependencies>
           <dependency>
             <groupId>org.eclipse.tycho.extras</groupId>
