@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="Espilce Polvi" sequenceNumber="1640246149">
+<target name="Espilce Polvi" sequenceNumber="1658231784">
   <locations>
     <location includeMode="slicer" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.eclipse.emf.sdk.feature.group" version="2.13.0.v20170609-0928"/>
@@ -34,7 +34,7 @@
       <unit id="org.espilce.commons.emf.feature.feature.group" version="0.1.0.20191023-1345"/>
       <unit id="org.espilce.commons.resource.feature.feature.group" version="0.1.0.20191023-1345"/>
       <unit id="org.espilce.commons.lang.feature.feature.group" version="0.3.0.20191028-1455"/>
-      <repository id="espilce-commons-p2" location="https://nexus.acidspace.nl/repository/espilce-commons/1.0/repository"/>
+      <repository id="espilce-commons-p2" location="https://altran-mde.github.io/espilce-commons-staging/1.0/repository/"/>
     </location>
   </locations>
 </target>

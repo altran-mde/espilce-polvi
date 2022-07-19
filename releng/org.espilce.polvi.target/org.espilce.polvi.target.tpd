@@ -33,7 +33,7 @@ location "http://download.eclipse.org/cbi/updates/license/" {
 	org.eclipse.license.feature.group [2.0.2,2.0.3)
 }
 
-location "https://nexus.acidspace.nl/repository/espilce-commons/1.0/repository" espilce-commons-p2 {
+location "https://altran-mde.github.io/espilce-commons-staging/1.0/repository/" espilce-commons-p2 {
     org.espilce.commons.emf.feature.feature.group
     org.espilce.commons.resource.feature.feature.group   
     org.espilce.commons.lang.feature.feature.group
