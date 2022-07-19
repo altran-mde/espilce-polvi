@@ -1,0 +1,4 @@
+#Thu Jul 07 14:00:00 CEST 2022
+version=1
+metadata.repository.factory.order=compositeContent.xml,\!
+artifact.repository.factory.order=compositeArtifacts.xml,\!
