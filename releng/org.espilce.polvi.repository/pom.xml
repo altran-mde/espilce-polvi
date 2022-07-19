@@ -5,32 +5,11 @@
 	<artifactId>org.espilce.polvi.repository</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>eclipse-repository</packaging>
-
+	
 	<parent>
 		<groupId>org.espilce.polvi</groupId>
 		<artifactId>org.espilce.polvi.parent</artifactId>
 		<version>0.1.0-SNAPSHOT</version>
 		<relativePath>../org.espilce.polvi.parent</relativePath>
 	</parent>
-
-	<properties>
-    	<maven.deploy.skip>true</maven.deploy.skip>
-    </properties>
-    
-    <distributionManagement>
-        <repository>
-           <id>nexus-p2</id>
-           <name>Internal Releases</name>
-           <url>https://my-nexus-p2/nexus/content/repositories/eclipse-releases/espilce-polvi/</url>
-        </repository>
-	    <snapshotRepository>
-           <id>nexus-p2</id>
-           <name>Internal Snapshots</name>
-           <url>https://my-nexus-p2/nexus/content/repositories/eclipse-snapshots/espilce-polvi/</url>
-        </snapshotRepository>
-	</distributionManagement>
-
-	<dependencies>
-	</dependencies>
-
 </project>
