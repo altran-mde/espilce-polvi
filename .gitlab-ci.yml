@@ -73,6 +73,7 @@ mde-release:
   tags:
     - linux_docker
   script:
+    - pip3 install --pre acidcli-altran==4.1.0b4646+70379 --upgrade --index-url https://nexus.acidspace.nl/repository/PyPI/simple
     - acidcli release binaries
   artifacts:
     when: always
