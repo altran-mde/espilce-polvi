@@ -105,7 +105,10 @@
   </setupTask>
   <setupTask
       xsi:type="setup.p2:P2Task"
-      label="Project Specific Development"/>
+      label="Project Specific Development">
+    <requirement
+        name="org.eclipse.xtext.sdk.feature.group"/>
+  </setupTask>
   <setupTask
       xsi:type="setup:CompoundTask"
       name="ACIDSpace">

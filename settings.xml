@@ -13,15 +13,15 @@
 
     <!-- P2 target platform mirrors -->
     <mirror>
-      <url>https://nexus.acidspace.nl/repository/eclipse.org-releases-oxygen/</url>
-      <mirrorOf>http://download.eclipse.org/releases/oxygen</mirrorOf> 
+      <url>https://nexus.acidspace.nl/repository/eclipse.org-releases-2020-06-202006171000/</url>
+      <mirrorOf>https://download.eclipse.org/releases/2020-06/202006171000/</mirrorOf> 
       <mirrorOfLayouts>p2</mirrorOfLayouts>
       <layout>p2</layout>
     </mirror>
 
     <mirror>
-      <url>https://nexus.acidspace.nl/repository/eclipse.org-tools-orbit-downloads-drops-R20180330011457-repository/</url>
-      <mirrorOf>http://download.eclipse.org/tools/orbit/downloads/drops/R20180330011457/repository</mirrorOf> 
+      <url>https://nexus.acidspace.nl/repository/eclipse.org-tools-orbit-downloads-drops-R20200529191137-repository/</url>
+      <mirrorOf>https://download.eclipse.org/tools/orbit/downloads/drops/R20200529191137/repository/</mirrorOf> 
       <mirrorOfLayouts>p2</mirrorOfLayouts>
       <layout>p2</layout>
     </mirror>
@@ -80,7 +80,5 @@
 
   <activeProfiles>
     <activeProfile>mde-assets-maven-central-snapshots</activeProfile>
-    <!-- Apply the Altran theme on generated documentation -->
-    <activeProfile>asciidoc-altran-theme</activeProfile>
   </activeProfiles>
 </settings>

@@ -4,7 +4,7 @@ import java.nio.charset.Charset;
 
 import org.eclipse.emf.common.util.URI;
 import org.espilce.polvi.emf.generator.api.fsa.IFileSystemAccessExtension2;
-import org.espilce.polvi.generator.AbstractFileSystemAccess;
+import org.espilce.polvi.generator.fsa.AbstractFileSystemAccess;
 
 /**
  * @author Sven Efftinge - Initial contribution and API
