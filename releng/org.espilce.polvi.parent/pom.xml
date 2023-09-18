@@ -14,7 +14,7 @@
     <maven.build.timestamp.format>yyyyMMdd-HHmm</maven.build.timestamp.format>
 
     <polvi-target-version>0.1.0-SNAPSHOT</polvi-target-version>
-    <jgit-version>5.5.1.201910021850-r</jgit-version>
+    <jgit-version>6.6.1.202309021850-r</jgit-version>
 
     <!-- Tycho settings -->
     <tycho-version>1.2.0</tycho-version>
