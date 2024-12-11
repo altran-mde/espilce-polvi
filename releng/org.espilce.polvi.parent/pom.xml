@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.espilce.polvi</groupId>
   <artifactId>org.espilce.polvi.parent</artifactId>
-  <version>0.3.0-SNAPSHOT</version>
+  <version>1.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <properties>
@@ -64,7 +64,7 @@
             <artifact>
               <groupId>org.espilce.polvi</groupId>
               <artifactId>org.espilce.polvi.target</artifactId>
-              <version>0.3.0-SNAPSHOT</version>
+              <version>1.1.0-SNAPSHOT</version>
             </artifact>
           </target>
           <environments>

@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Espilce Polvi Generator
 Bundle-SymbolicName: org.espilce.polvi.generator
-Bundle-Version: 0.3.0.qualifier
+Bundle-Version: 1.1.0.qualifier
 Bundle-Vendor: Espilce Polvi
 Automatic-Module-Name: org.espilce.polvi.generator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
@@ -12,7 +12,7 @@ Import-Package: org.eclipse.jdt.annotation;resolution:=optional,
  org.espilce.polvi.generator.api.context;version="0.3.0",
  org.espilce.polvi.generator.api.fsa;version="0.3.0",
  org.espilce.polvi.generator.api.outputconfig;version="0.3.0"
-Export-Package: org.espilce.polvi.generator;version="0.3.0";uses:="org.espilce.polvi.generator.fsa",
- org.espilce.polvi.generator.context;version="0.3.0";uses:="org.espilce.polvi.generator.api.context",
- org.espilce.polvi.generator.fsa;version="0.3.0";uses:="org.espilce.polvi.generator.outputconfig,org.espilce.polvi.generator.api.fsa",
- org.espilce.polvi.generator.outputconfig;version="0.3.0";uses:="org.espilce.polvi.generator.api.outputconfig"
+Export-Package: org.espilce.polvi.generator;version="1.1.0";uses:="org.espilce.polvi.generator.fsa",
+ org.espilce.polvi.generator.context;version="1.1.0";uses:="org.espilce.polvi.generator.api.context",
+ org.espilce.polvi.generator.fsa;version="1.1.0";uses:="org.espilce.polvi.generator.outputconfig,org.espilce.polvi.generator.api.fsa",
+ org.espilce.polvi.generator.outputconfig;version="1.1.0";uses:="org.espilce.polvi.generator.api.outputconfig"

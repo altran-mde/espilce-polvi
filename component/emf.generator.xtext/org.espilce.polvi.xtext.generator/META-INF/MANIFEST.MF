@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Xtext Generator Polvi Extension
 Bundle-SymbolicName: org.espilce.polvi.xtext.generator
-Bundle-Version: 0.3.0.qualifier
+Bundle-Version: 1.1.0.qualifier
 Bundle-Vendor: Capgemini Engineering
 Automatic-Module-Name: org.espilce.polvi.xtext.generator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
