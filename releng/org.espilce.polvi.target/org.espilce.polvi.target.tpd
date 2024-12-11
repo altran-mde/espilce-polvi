@@ -1,27 +1,27 @@
 target "Espilce Polvi"
 
-with configurePhase source
+with configurePhase source requirements
 
-location "http://download.eclipse.org/releases/oxygen" {
-	org.eclipse.emf.sdk.feature.group
-	
-	org.eclipse.xtext.sdk.feature.group
-	org.eclipse.xtend.feature.group
-	org.eclipse.emf.mwe.sdk.feature.group
-	org.eclipse.emf.mwe2.language.sdk.feature.group
-	
-	org.eclipse.equinox.executable.feature.group
-	org.eclipse.sdk.feature.group
+location "https://download.eclipse.org/releases/2020-06/202006171000/" {
+  org.eclipse.emf.sdk.feature.group
+  
+  org.eclipse.xtext.sdk.feature.group
+  org.eclipse.xtend.feature.group
+  org.eclipse.emf.mwe.sdk.feature.group
+  org.eclipse.emf.mwe2.language.sdk.feature.group
+  
+  org.eclipse.equinox.executable.feature.group
+  org.eclipse.sdk.feature.group
 }
 
-location "http://download.eclipse.org/tools/orbit/downloads/drops/R20180330011457/repository" {
+location "https://download.eclipse.org/tools/orbit/downloads/drops/R20200529191137/repository/" {
 	org.apache.commons.io [2.2.0,2.2.1)
 	org.apache.commons.io.source [2.2.0,2.2.1)
 	org.apache.commons.lang3 [3.1.0,3.1.1)
 	org.apache.commons.lang3.source [3.1.0,3.1.1)
 
-	com.google.guava [15.0.0,15.0.1)
-	com.google.guava.source [15.0.0,15.0.1)
+	com.google.guava [27.1.0,27.1.1)
+	com.google.guava.source [27.1.0,27.1.1)
 	com.google.inject [3.0.0,3.0.1)
 	com.google.inject.source [3.0.0,3.0.1)
 	

@@ -2,7 +2,7 @@
 <feature
       id="org.espilce.polvi.emf.generator.xtext.feature"
       label="Espilce Polvi EMF Generator Xtext Feature"
-      version="0.1.0.qualifier"
+      version="1.1.0.qualifier"
       provider-name="Espilce Polvi"
       license-feature="org.eclipse.license"
       license-feature-version="2.0.2">

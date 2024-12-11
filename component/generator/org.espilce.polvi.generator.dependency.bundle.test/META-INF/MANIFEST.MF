@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Espilce Polvi Generator Bundle Dependency Test
 Bundle-SymbolicName: org.espilce.polvi.generator.dependency.bundle.test
-Bundle-Version: 0.1.0.qualifier
+Bundle-Version: 1.1.0.qualifier
 Bundle-Vendor: Espilce Polvi
 Automatic-Module-Name: org.espilce.polvi.generator.dependency.bundle.test
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
