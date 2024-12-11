@@ -2,18 +2,18 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Espilce Polvi EMF Generator Api
 Bundle-SymbolicName: org.espilce.polvi.emf.generator.api
-Bundle-Version: 0.1.0.qualifier
+Bundle-Version: 0.3.0.qualifier
 Bundle-Vendor: Espilce Polvi
 Automatic-Module-Name: org.espilce.polvi.emf.generator.api
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Require-Bundle: org.espilce.polvi.generator.api;bundle-version="0.1.0";visibility:=reexport,
- org.eclipse.emf.ecore;resolution:=optional;visibility:=reexport,
- org.eclipse.emf.common;resolution:=optional;visibility:=reexport,
- org.eclipse.jdt.annotation;bundle-version="2.1";resolution:=optional;visibility:=reexport
+Require-Bundle: org.espilce.polvi.generator.api;bundle-version="0.3.0";visibility:=reexport,
+ org.eclipse.emf.ecore;visibility:=reexport;resolution:=optional,
+ org.eclipse.emf.common;visibility:=reexport;resolution:=optional,
+ org.eclipse.jdt.annotation;bundle-version="2.1";visibility:=reexport;resolution:=optional
 Import-Package: org.eclipse.emf.common.util,
  org.eclipse.emf.ecore.resource,
  org.eclipse.jdt.annotation;resolution:=optional,
- org.espilce.polvi.generator.api.context;version="0.1.0",
- org.espilce.polvi.generator.api.fsa;version="0.1.0"
-Export-Package: org.espilce.polvi.emf.generator.api;version="0.1.0",
- org.espilce.polvi.emf.generator.api.fsa;version="0.1.0"
+ org.espilce.polvi.generator.api.context;version="0.3.0",
+ org.espilce.polvi.generator.api.fsa;version="0.3.0"
+Export-Package: org.espilce.polvi.emf.generator.api;version="0.3.0",
+ org.espilce.polvi.emf.generator.api.fsa;version="0.3.0"

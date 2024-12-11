@@ -8,9 +8,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import javax.annotation.Resource;
-
-import org.espilce.polvi.generator.api.IGenerator1;
 import org.espilce.polvi.generator.api.context.CancelIndicator;
 import org.espilce.polvi.generator.api.context.IGeneratorContext;
 import org.espilce.polvi.generator.api.fsa.IFileSystemAccess;
@@ -23,38 +20,6 @@ import org.espilce.polvi.generator.api.outputconfig.ISourceMapping;
 import org.junit.Test;
 
 public class TestGeneratorApiDependency {
-	@SuppressWarnings("null")
-	@Test
-	public void iGenerator1() throws Exception {
-		final AtomicBoolean b = new AtomicBoolean(false);
-		new IGenerator1() {
-			
-			@Override
-			public void doGenerate(
-					final Resource input, final IFileSystemAccess fsa,
-					final IGeneratorContext context
-			) {
-				b.set(true);
-			}
-			
-			@Override
-			public void beforeGenerate(
-					final Resource input, final IFileSystemAccess fsa,
-					final IGeneratorContext context
-			) {
-			}
-			
-			@Override
-			public void afterGenerate(
-					final Resource input, final IFileSystemAccess fsa,
-					final IGeneratorContext context
-			) {
-			}
-		}.doGenerate(null, null, null);
-		
-		assertTrue(b.get());
-	}
-	
 	@Test
 	public void cancelIndicator() throws Exception {
 		final AtomicBoolean b = new AtomicBoolean(false);
